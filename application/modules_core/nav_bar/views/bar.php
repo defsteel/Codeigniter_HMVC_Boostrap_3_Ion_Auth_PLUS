@@ -11,7 +11,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-        <li class="<?echo$active['0']?>" data-tooltip="tooltip" title="Add a link"><a href=<?php echo base_url();?>></a>Link</li>
+        <li class="<?echo$active['0']?>" data-tooltip="tooltip" title="Add a link"><a href="<?php echo base_url();?>">Link</a></li>
 
         <?php if($this->ion_auth->is_admin()):?>
         <li class="" data-tooltip="tooltip" title="ADMIN"><?php echo anchor('auth',$this->config->item('admin_icon').' ADMIN')?></li>
